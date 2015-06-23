@@ -26,7 +26,7 @@
       if (err) {
         console.error(err);
         if (sub && sub._errorRV) {
-          sub._errorRV.set(true);
+          sub._errorRV.set(err);
         }
       }
       if (_.isFunction(origOnStop)) {
