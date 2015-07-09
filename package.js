@@ -2,7 +2,7 @@ Package.describe({
   name: 'fongandrew:sub-error',
   summary: 'Adds reactive error var to Meteor subscription handles',
   version: '0.1.0',
-  git: '' // Not really publishable yet
+  git: 'https://github.com/fongandrew/meteor-sub-error.git'
 });
 
 Package.onUse(function(api) {
